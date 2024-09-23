@@ -9,7 +9,7 @@ export function HomeHero() {
       <p className="lead mb-4">Junior Full-stack developer</p>
       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
         <button type="button" className="btn btn-warning rounded-pill px-3">Contact me</button>
-        <button type="button" className="btn btn-secondary rounded-pill px-3">My GitHub</button>
+        <button type="button" className="btn btn-warning rounded-pill px-3">My GitHub</button>
       </div>
     </div>
   </div>
