@@ -1,0 +1,13 @@
+.hero {
+    padding: 1rem 2rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.btnList {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
