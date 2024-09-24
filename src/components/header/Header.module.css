@@ -6,23 +6,26 @@
 }
 
 .logo {
-   height: 2rem;
-   max-width: 2rem;
+   height: 4rem;
+   max-width: 4rem;
    object-fit: contain;
    object-position: left;
 }
 
 .nav {
    display: flex;
-   gap: 1rem;
+   gap: 3rem;
 }
 
 .link {
-   font-size: 1.2rem;
+   font-size: 1.5rem;
    text-decoration: none;
-   color: #333;
+   color: black;
 }
 
 .link:hover {
-   color: #36f;
+   color: white;
+   background-color: black;
+   padding: 0.5rem 1rem;
+   border-radius: 1.3em;
 }

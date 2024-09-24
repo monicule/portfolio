@@ -5,9 +5,10 @@ import { Button } from '../button/Button';
 export function HomeHero() {
     return (
       <div className={style.hero}>
-        <img src={foto} alt="Photo" width="20%" />
+        <img className={style.foto} src={foto} alt="Photo" />
         <h1>Monika Kasauskaitė</h1>
-        <p>Junior Full-stack developer</p>
+        <h3>Junior Full-stack developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima eveniet rerum ex temporibus atque consequatur est deleniti perferendis? Nobis eaque deserunt excepturi, ad quasi et enim quos nisi molestiae delectus?</p>
          <div className={style.btnList}>
                     <Button url="#" text="Contact Me" />
                     <Button url="#" text="My Github" />

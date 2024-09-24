@@ -3,12 +3,12 @@ import logo from '../../icons/mk.webp';
 
 export function Header() {
     return (
-       <header className='mainHeader'>
-            <img className='logo' src={logo} alt="Logo" />
-            <nav className='nav'>
-                <a className='link' href="#">About me</a>
-                <a className='link' href="#">Projects</a>
-                <a className='link' href="#">Contacts</a>
+       <header className={style.mainHeader}>
+            <img className={style.logo} src={logo} alt="Logo" />
+            <nav className={style.nav}>
+                <a className={style.link} href="#">About me</a>
+                <a className={style.link} href="#">Projects</a>
+                <a className={style.link} href="#">Contacts</a>
             </nav>
         </header>
        

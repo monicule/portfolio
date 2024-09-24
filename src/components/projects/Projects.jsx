@@ -10,7 +10,8 @@ export function Projects() {
         <section className={style.projects}>
             <div className={style.textContent}>
                 <h1 className={style.title}>{title}</h1>
-                <p className={style.description}>Get ready for a development environment that can finally catch up with you.</p>
+                <p className={style.description}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed commodi fugit libero rem similique sequi minus qui adipisci asperiores nemo sint vel ut quaerat iure officiis, cumque dicta voluptatum debitis?</p>
+                <p className={style.description}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed commodi fugit libero rem similique sequi minus qui adipisci asperiores nemo sint vel ut quaerat iure officiis, cumque dicta voluptatum debitis?</p>
             </div>
         </section>
     );
