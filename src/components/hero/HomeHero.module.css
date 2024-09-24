@@ -17,3 +17,21 @@
     width: 10rem;
     border-radius: 20%;
 }
+
+.btn {
+    padding: 0.8em 1.3em;
+    line-height: 1em;
+    font-size: 1.1rem;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1.3em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3em;
+}
