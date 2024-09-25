@@ -1,10 +1,11 @@
 .myContacts {
     padding: 1rem 2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    border-top: 2px solid #ccc;
 
 }
 
